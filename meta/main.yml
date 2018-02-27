@@ -1,0 +1,16 @@
+# file: roles/ansible.tower/meta/main.yml
+---
+galaxy_info:
+  author: Brad Sollar
+  description: AWS Infra Role
+  company: Red Hat
+  license: MIT
+  min_ansible_version: 1.9
+  platforms:
+  - name: EL
+    versions:
+    - all
+  galaxy_tags:
+    - AWS
+
+dependencies:
